@@ -1,4 +1,4 @@
-# QR Code Scanner
+# QR Code Generator
 
 A modern, feature-rich QR code generator built with React and Vite. Create and customize QR codes with multiple styles, colors, logos, and export options.
 
