@@ -97,9 +97,6 @@ src/
 - Email addresses
 - Phone numbers
 - WiFi credentials
-- Calendar events
-- Business cards (vCard)
-- Geographic locations
 
 ## Customization Options
 
