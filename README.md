@@ -1,16 +1,127 @@
-# React + Vite
+# QR Code Scanner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, feature-rich QR code generator built with React and Vite. Create and customize QR codes with multiple styles, colors, logos, and export options.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🎨 **Multiple QR Code Styles** - Choose from different visual styles (dots, rounded, squares, etc.)
+- 🌈 **Custom Colors** - Customize foreground and background colors
+- 📷 **Logo Support** - Add custom logos or images to QR codes
+- 💾 **Multiple Export Formats** - Download as PNG, SVG, or copy HTML code
+- 📱 **Responsive Design** - Works seamlessly on desktop and mobile devices
+- ⚡ **Built with Modern Tech** - React 19, Vite, TailwindCSS
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework:** React 19.2.6
+- **Build Tool:** Vite 8.0.12
+- **Styling:** TailwindCSS 4.3.1
+- **QR Code Library:** qr-code-styling 1.9.2
+- **Icons:** Lucide React 1.21.0
+- **Linting:** ESLint
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd qr-code-scanner
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+### Development
+
+Start the development server:
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+### Build
+
+Create a production build:
+```bash
+npm run build
+```
+
+### Preview
+
+Preview the production build locally:
+```bash
+npm run preview
+```
+
+### Linting
+
+Run ESLint to check code quality:
+```bash
+npm lint
+```
+
+## Project Structure
+
+```
+src/
+├── App.jsx                 # Main application component
+├── main.jsx               # Application entry point
+├── index.css              # Global styles
+├── assets/                # Static assets
+└── components/
+    └── QRCodePreview.jsx  # QR code preview and export component
+```
+
+## Usage
+
+1. **Enter QR Code Data:** Input the text, URL, email, phone number, or WiFi details you want to encode
+2. **Customize Style:** Select from different QR code style presets
+3. **Choose Colors:** Pick custom foreground and background colors
+4. **Add Logo:** Optionally upload a logo to display in the center of the QR code
+5. **Export:** Download as PNG/SVG or copy the HTML code
+
+## Available QR Code Data Types
+
+- Text
+- URLs
+- Email addresses
+- Phone numbers
+- WiFi credentials
+- Calendar events
+- Business cards (vCard)
+- Geographic locations
+
+## Customization Options
+
+- **Style Presets:** Multiple visual styles for QR codes
+- **Color Customization:** Full control over QR code colors
+- **Logo Size:** Adjustable logo size in the QR code
+- **Export Formats:** PNG, SVG, or HTML code
+
+## Browser Support
+
+- Chrome/Edge (latest)
+- Firefox (latest)
+- Safari (latest)
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Support
+
+For issues, questions, or suggestions, please open an issue on the repository.
