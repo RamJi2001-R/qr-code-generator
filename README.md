@@ -64,10 +64,7 @@ npm run preview
 ```
 
 ### Project Images
-
-`
-project images
-`
+`https://github.com/RamJi2001-R/qr-code-generator/tree/main/project%20images`
 
 ### Linting
 
