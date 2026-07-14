@@ -65,10 +65,9 @@ npm run preview
 
 ### Project Images
 
-Preview the production build locally:
-```
+`
 project images
-```
+`
 
 ### Linting
 
